@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "o_sum",
+					"strict" : false
+				},
+				{
+					"name" : "o_carry",
+					"strict" : false
+				},
+				{
+					"name" : "i_bit1",
+					"strict" : false
+				},
+				{
+					"name" : "i_bit2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

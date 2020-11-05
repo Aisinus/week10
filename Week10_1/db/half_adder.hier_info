@@ -1,0 +1,9 @@
+|half_adder
+i_bit1 => o_sum.IN0
+i_bit1 => o_carry.IN0
+i_bit2 => o_sum.IN1
+i_bit2 => o_carry.IN1
+o_sum << o_sum.DB_MAX_OUTPUT_PORT_TYPE
+o_carry << o_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+

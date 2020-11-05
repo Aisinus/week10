@@ -1,0 +1,11 @@
+|full_adder
+i_bit1 => w_WIRE_1.IN0
+i_bit1 => w_WIRE_3.IN0
+i_bit2 => w_WIRE_1.IN1
+i_bit2 => w_WIRE_3.IN1
+i_carry => w_WIRE_2.IN1
+i_carry => o_sum.IN1
+o_sum <= o_sum.DB_MAX_OUTPUT_PORT_TYPE
+o_carry <= o_carry.DB_MAX_OUTPUT_PORT_TYPE
+
+
